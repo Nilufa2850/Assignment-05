@@ -7,7 +7,7 @@ int main()
     printf("Enter a number : ");
     scanf("%d",&n);
 
-    for(x=1 ; x<=n ; x+=2)
+    for(x=1 ; x<=n*2 ; x+=2)
         printf("%d\n",x);
 
     return 0;
