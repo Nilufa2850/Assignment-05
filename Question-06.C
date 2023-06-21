@@ -3,14 +3,14 @@
 #include<stdio.h>
 int main()
 {
-    int x=2 , n ;
+    int x=1 , n ;
     printf("Enter a number : ");
     scanf("%d",&n);
 
-    while (x<=n*2)
+    while (x<=n)
     {
-        printf("\n%d",x);
-        x+=2;
+        printf("\n%d",x*2);
+        x++;
     }
     return 0;
 }
